@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin: 30px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .product-img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+<body>
+   <div class="card">
+    <h2 class="product-name">Wooden Lamp</h2>
+    <img class="product-img" src="images/_ (4).jpeg" alt="Product">
+    <p class="product-description">A beautiful handcrafted lamp made from bamboo.</p>
+    <p>Price: <span class="price">$40</span></p>
+
+    <input type="text" id="newName" placeholder="Enter new product name" />
+    <input type="text" id="newImage" placeholder="Enter new image URL" />
+    <button class="update-btn">Update Product</button>
+  </div>
+<script src="script.js"></script>
+
+</body>
+</html>
