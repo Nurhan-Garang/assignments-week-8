@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3</title>
+</head>
+<body>
+    <!-- <div class="container">
+        <h1>Nurhan</h1>
+        <p>That is the name</p>
+    </div>
+    <p>This is the original.</p> -->
+    <div class="task-box">
+        <input type="text" id ="taskInput"placeholder="Enter task">
+        <button id="addTaskBtn">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
+
+    <h3>My To-Do List</h3>
+<ul id="todo-list"></ul>
+<button onclick="addTask()">Add Task</button>
+
+
+<h3>Comments</h3>
+<div id="comments"></div>
+<button onclick="addComment()">Add Comment</button>
+
+<h3>Shopping List</h3>
+<ul id="shopping-list">
+  <li>Milk</li>
+  <li id="remove-me">Eggs</li>
+  <li>Bread</li>
+</ul>
+<button onclick="removeEggs()">Remove Eggs</button><br><br>
+
+<button onclick="createParagraph()">Add Paragraph</button>
+
+<button onclick="removeParagraph()">Remove Paragraph</button>
+
+<div id="content-area"></div>
+
+<div id="list">
+  <p id="ref">📌 Reference Paragraph</p>
+</div>
+
+<button onclick="insertBeforeRef()">Insert Before</button>
+    <script src="script.js"></script>
+
+</body>
+</html>
