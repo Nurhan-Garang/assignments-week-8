@@ -65,7 +65,7 @@ function removeParagraph() {
 
 function insertBeforeRef() {
   const newPara = document.createElement("p");
-  newPara.textContent = "✨ I'm inserted before the reference!";
+  newPara.textContent = " I'm inserted before the reference!";
   
   const ref = document.getElementById("ref");
   const parent = document.getElementById("list");
